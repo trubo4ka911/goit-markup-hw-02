@@ -1,0 +1,160 @@
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --title-text-color: rgba(33, 33, 33, 1);
+    --accent-color: rgba(255, 255, 255, 1);
+    --focus-color: rgba(33, 150, 243, 1);
+}
+body {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style-type: none;
+  }
+.link {
+    text-decoration: none;
+}
+/* INDEX.HTML */
+/* header */
+.logo {
+    font-weight: 700;
+    color: var(--title-text-color);
+    font-size: 26px;
+    text-decoration: none;
+}
+.logo span {
+    color: var(--focus-color);
+}
+.menu_btn {
+    color: var(--title-text-color);
+    font-weight: 500;
+}
+.menu-link {
+    color: var(--primary-text-color);
+    font-size: 14px;
+}
+.link:hover,
+.link:focus {
+    color: var(--focus-color);
+}
+/* section offer */
+.offer-title {
+    font-size: 44px;
+    color: var(--accent-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.offer__btn {
+    background-color: rgba(33, 150, 243, 1);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* section features */
+.features-main {
+    visibility: hidden;
+}
+.feature_title {
+    font-size: 14px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.feature_text {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+/* section activities */
+.activities-title, .team-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--title-text-color);
+}
+.activities-item__link {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* section team */
+.team-item__name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+.team-item__position {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+/* footer */
+.address {
+    font-size: 14px;
+    color: var(--accent-color);
+    font-style: normal;
+}
+.socials-item, .sub {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-transform: uppercase;
+}
+.send_btn {
+    background-color: rgba(33, 150, 243, 1);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+.caption {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+/* PORTFOLIO.HTML */
+.works-title {
+    visibility: hidden;
+}
+.portfolio_btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--title-text-color);
+    border: none;
+    background-color: transparent;
+}
+.portfolio_btn:focus,
+.portfolio_btn:hover {
+    background-color: var(--focus-color);
+}
+.route-list_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--title-text-color);
+}
+.route-list_link {
+    text-decoration: none;
+}
+.route-list_overlay {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--accent-color);
+}
+.route-list_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--title-text-color);
+}
+.route-list_type {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
