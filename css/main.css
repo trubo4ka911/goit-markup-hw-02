@@ -17,10 +17,13 @@ li {
 /* INDEX.HTML */
 /* header */
 .logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: var(--title-text-color);
     font-size: 26px;
     text-decoration: none;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 .logo span {
     color: var(--focus-color);
@@ -28,10 +31,15 @@ li {
 .menu_btn {
     color: var(--title-text-color);
     font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .menu-link {
     color: var(--primary-text-color);
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
@@ -39,10 +47,14 @@ li {
 }
 /* section offer */
 .offer-title {
+    background-color: var(--focus-color);
     font-size: 44px;
     color: var(--accent-color);
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .offer__btn {
     background-color: rgba(33, 150, 243, 1);
@@ -52,7 +64,11 @@ li {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
 }
 /* section features */
 .features-main {
@@ -63,17 +79,24 @@ li {
     color: var(--title-text-color);
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 0.03em;
 }
 .feature_text {
     font-size: 14px;
     font-weight: 400;
     color: var(--primary-text-color);
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 /* section activities */
 .activities-title, .team-title {
     font-size: 36px;
     font-weight: 700;
     color: var(--title-text-color);
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .activities-item__link {
     font-size: 14px;
@@ -81,29 +104,49 @@ li {
     color: var(--accent-color);
     text-decoration: none;
     text-transform: uppercase;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--focus-color);
 }
 /* section team */
 .team-item__name {
     font-size: 16px;
     font-weight: 500;
     color: var(--title-text-color);
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-item__position {
     font-size: 16px;
     font-weight: 400;
     color: var(--primary-text-color);
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 /* footer */
+.footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    color: var(--accent-color);
+}
 .address {
     font-size: 14px;
     color: var(--accent-color);
     font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 .socials-item, .sub {
     font-size: 14px;
     font-weight: 700;
     color: var(--accent-color);
     text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 0.03em;
 }
 .send_btn {
     background-color: rgba(33, 150, 243, 1);
@@ -113,12 +156,20 @@ li {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 900;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
 }
 .caption {
     font-size: 12px;
     font-weight: 400;
     color: var(--primary-text-color);
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 /* PORTFOLIO.HTML */
 .works-title {
@@ -130,23 +181,32 @@ li {
     color: var(--title-text-color);
     border: none;
     background-color: transparent;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .portfolio_btn:focus,
 .portfolio_btn:hover {
     background-color: var(--focus-color);
+    color: var(--accent-color);
 }
 .route-list_title {
     font-size: 18px;
     font-weight: 700;
     color: var(--title-text-color);
+    line-height: 36px;
+    letter-spacing: 0.06em;
 }
 .route-list_link {
     text-decoration: none;
 }
 .route-list_overlay {
+    background-color: rgba(33, 150, 243, 0.9);
     font-size: 18px;
     font-weight: 400;
     color: var(--accent-color);
+    line-height: 28px;
+    letter-spacing: 0.03em;
 }
 .route-list_title {
     font-size: 18px;
@@ -157,4 +217,6 @@ li {
     font-size: 16px;
     font-weight: 400;
     color: var(--primary-text-color);
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
